@@ -1,0 +1,38 @@
+{
+  "name": "node-shm-ipc",
+  "description": "Alternative ipc for node",
+  "version": "0.0.1",
+  "author": {
+    "name": "Joel Feinstein"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jnfeinstein/node-shm-ipc.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jnfeinstein/node-shm-ipc/issues"
+  },
+  "main": "lib/main",
+  "scripts": {
+    "test": "nodeunit test"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "keywords": [
+    "shm",
+    "ipc",
+    "process",
+    "child",
+    "cluster"
+  ],
+  "dependencies": {
+    "shm": "*"
+  },
+  "devDependencies": {
+    "nodeunit": "*"
+  },
+  "readmeFilename": "README.md",
+  "_id": "node-shm-ipc@0.0.1",
+  "_from": "node-shm-ipc@"
+}
